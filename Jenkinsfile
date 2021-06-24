@@ -17,7 +17,7 @@ pipeline {
           }
         }
 
-        stage('error') {
+        stage('Windows tests') {
           steps {
             echo 'Run windows tests'
           }
